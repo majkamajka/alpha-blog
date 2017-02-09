@@ -2,3 +2,8 @@
 
 <p>title: <%= @article.title %></p>
 <p>description: <%= @article.description %></p>
+
+<%= link_to "edit this art", edit_article_path(@article) %> |
+
+<%= link_to "go back to art list", articles_path %>
+
