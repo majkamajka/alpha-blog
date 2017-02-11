@@ -6,8 +6,10 @@
 
 <table>
   <tr>
+    <th>id</th>
     <th>Title</th>
     <th>description</th>
+    <th></th>
     <th></th>
     <th></th>
     
@@ -16,10 +18,12 @@
   <% @articles.each do |art| %>
   
   <tr>
+    <td><%= art.id %></td>
     <td> <%= art.title %></td>
     <td> <%= art.description %></td>
     <td><%= link_to "edit", edit_article_path(art) %></td>
     <td><%= link_to "display", article_path(art) %></td>
+    <td><%= link_to "delete", article_path(art), method: :delete, data: {confirm: "Are you sure?"} %></td>
   </tr>
   
   <% end %>
