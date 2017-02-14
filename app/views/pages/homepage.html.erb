@@ -1,49 +1,10 @@
-<html>
-    <head>
-    
-    </head>
-    
-    
-    <body>
-        <div style="background-color:gray" width=100%>
-            <h1 style="text-align:center">Hello, this is homepage</h1>
-            <%= "go to" %>
-            
-            <%= link_to "Alpha Blog", articles_path %> | <%= link_to "about page", about_path %>
-            <br/>
-            <img src="https://lh3.googleusercontent.com/l6JAkhvfxbP61_FWN92j4ulDMXJNH3HT1DR6xrE7MtwW-2AxpZl_WLnBzTpWhCuYkbHihgBQ=s640-h400-e365"/>
-        </div>
-        <div>
-            <table width=100%>
-                <tr>
-                    <td width=50%>
-                        <ul>
-                            <li>q</li>
-                            <li>w</li>
-                            <li>e</li>
-                            <li>r</li>
-                        </ul>
-                    </td>
-                    
-                    <td width=50%>
-                        <ul>
-                            <li>a</li>
-                            <li>s</li>
-                            <li>d</li>
-                            <li>f</li>
-                        </ul>
-                    </td>
-                </tr>
-            </table>
-        </div>
-        
-        <div style="background-color:gray" width=100%>
-            <p>footer</p>
-        </div>
-    
-    
-    
 
+<div class="center jumbotron">
 
-    </body>
-</html>
+  <h1>Hello, this is Alpha Blog</h1>
+  <!-- <%= link_to "sign up", "#" %> -->
+  <!-- <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a></p> -->
+  <p><%= link_to "sign up", "#", class: "btn btn-success btn-lg btn-gray", role: "button" %></p>
+
+  
+</div>
