@@ -55,6 +55,17 @@ $navbar-default-bg: #2b2c2d;
  color: lightgray;
 }
 
+.article-title {
+  font-weight: bold;
+  font-size: 1.4em;
+}
+
+.article-body {
+  border-top: 1px dashed lightgray;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
 
 footer {
  padding-top: 5px;
