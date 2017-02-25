@@ -1,14 +1,12 @@
 <div class="row with-bg">
   <div class="col-xs-8 col-xs-offset-2">
     
-    <h1 class="shadow big">Title: <%= @article.title %></h1>
+    <h1 class="shadow big"><%= @article.title %></h1>
 
   </div>
 </div>  
 
 <div class="well col-xs-8 col-xs-offset-2">
-  
-  <h4><strong>Description:</strong></h4>
 
   <%= simple_format(@article.description) %>
   
